@@ -11,12 +11,12 @@ Vagrant.configure("2") do |config|
         worker1.vm.box = "centos/7"
         worker1.vm.hostname = "worker1"
         worker1.vm.provision "shell", path: "provision.sh"
-        worker1.vm.network "private_network", ip: "192.168.1.2"
+        worker1.vm.network "private_network", ip: "192.168.1.3"
     end
     config.vm.define "worker2" do |worker2|
         worker2.vm.box = "centos/7"
         worker2.vm.hostname = "worker2"
         worker2.vm.provision "shell", path: "provision.sh"
-        worker2.vm.network "private_network", ip: "192.168.1.2"
+        worker2.vm.network "private_network", ip: "192.168.1.4"
     end
 end
