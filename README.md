@@ -2,7 +2,7 @@
 
 ## Visão geral
 
-Este projeto, fornecerar e explicarar o passo a passo de como configurar um ambiente Docker Swarm usando o Vagrant, utilizando três máquinas virtuais (um node gerenciador e dois nodes trabalhadores) com sistema operacional CentOS 7. Além disso, será instalado o Docker e o Docker Compose em cada máquina virtual.
+Este projeto, fornecerá e explicará o passo a passo de como configurar um ambiente Docker Swarm usando o Vagrant, utilizando três máquinas virtuais (um node gerenciador e dois nodes trabalhadores) com sistema operacional CentOS 7. Além disso, será instalado o Docker e o Docker Compose em cada máquina virtual.
 
 <!-- ## Primeiros passos
 
